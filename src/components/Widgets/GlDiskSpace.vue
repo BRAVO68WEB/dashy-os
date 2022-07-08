@@ -7,7 +7,7 @@
       { label: $t('widgets.glances.disk-space-free'), size: 100 - disk.percent, color: '#20e253' },
       ]" />
     <p class="info">
-      <b>{{ $t('widgets.glances.disk-space-free') }}</b>:
+      <b>{{ $t('widgets.glances.disk-space-used') }}</b>:
       {{ disk.used | formatSize }} out of {{ disk.size | formatSize }}
     </p>
     <p class="info"><b>{{ $t('widgets.glances.disk-mount-point') }}</b>: {{ disk.mnt_point }}</p>
